@@ -15,7 +15,6 @@ public class LongestPalindromicSubstring {
             if (evenPalindrome.length() > result.length()) {
                 result = evenPalindrome;
             }
-
         }
         return result;
     }
